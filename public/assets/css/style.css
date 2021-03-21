@@ -1,0 +1,51 @@
+body{font-family: 'Orbitron', sans-serif!important;}
+.navbar{
+    height: 90px;
+}
+#logo{
+    height: 50px;
+    margin-bottom: 6px;
+}
+.teste:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.menu-aberto{
+    left: 0px!important;
+}
+.menu-responsivo{
+}
+
+.menu-ul{
+    color: white;
+    background-color: black;
+    height: 210px;
+    padding: 0;
+    font-size: 17px;
+    position: absolute;
+    left: -131px;
+    top: 0px;
+    width: 131px;
+    transition: all 0.2s ease-in-out;
+}    
+.menu-responsivo ul a li{
+    padding: 18px;
+}
+
+
+/*Biografia
+
+*/
+.biografia{
+    margin-top: 50px;
+}
+.quem-sou h2{
+    font-size: 45px;
+    margin-left: 34px;
+}
+
+.quem-sou p{
+    font-size: 14px;
+    position: absolute;
+    left: 38px;
+}
