@@ -68,4 +68,82 @@ header.container{
     height: 100px;
     padding-bottom: 60px;
 }
+.habilidades{
+    position: relative;
+    top: 260px;
+}
+.text-icon{
+    position: relative;
+    bottom: 130px;
+}
 
+
+
+
+
+#oqf{
+    position: relative;
+    top: 300px;
+
+}
+.caixa{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background:#060c21;
+    margin: 48px;
+    top: 400px;
+}
+
+.caixa:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+    
+}
+.caixa:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+.caixa:nth-child(1):before,
+.caixa:nth-child(1):after{
+    background:linear-gradient(225deg,#89ff00,#010615,#00bcd4)
+}
+.caixa:nth-child(2):before,
+.caixa:nth-child(2):after{
+    background:linear-gradient(225deg,#ff005e,#010615,#fbff00)
+}
+.caixa:nth-child(3):before,
+.caixa:nth-child(3):after{
+    background:linear-gradient(225deg,#772aff,#010615,#2196f3)
+}
+
+.caixa .glass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    display: block;
+    background:rgba(255, 255, 255,.1);
+    pointer-events: none;
+}
+.caixa .content{
+    padding: 20px;
+    color: white;
+
+}
